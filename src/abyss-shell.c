@@ -62,7 +62,9 @@ int main() {
             }
             if (strcmp(args[0], "cd") == 0) {
                 if (args[1] != NULL) {
-                    chdir(args[1]);
+                    if (chdir(args[1]) != 0) {
+                        perror("cd");
+                    }
                 }
                 continue;
             }
