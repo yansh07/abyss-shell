@@ -25,11 +25,12 @@ int main() {
         if (args[0] == NULL) {
             continue;
         }
-        
+        //handle exit
         if (strcmp(args[0], "exit") == 0)
         {
             break;
         }
+        //handle cd command
         if (strcmp(args[0], "cd") == 0)
         {
             chdir(args[1]);
