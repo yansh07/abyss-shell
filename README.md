@@ -28,7 +28,7 @@ Ensure you have `gcc` and `make` installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/abyss-shell.git
+git clone https://github.com/yansh07/abyss-shell.git
 cd abyss-shell
 
 # Build the shell
